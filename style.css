@@ -1,0 +1,54 @@
+h1 {
+    color: white;
+    font-weight: 900px;
+    font-size: 60px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+ol {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 5px;
+    gap: 19px;
+    text-indent: 5px;
+    text-align: center;
+}
+
+@media screen and (max-width:850px) {
+    .nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    ol {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .gee {
+        text-align: center;
+    }
+
+    .gee p {
+        font-size: large;
+    }
+
+    #img {
+        width: 60px;
+        background-color: black;
+        padding: 10px;
+        margin-top: 15px;
+    }
+}
